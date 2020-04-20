@@ -1,0 +1,20 @@
+{
+  "name": "Nanosserviços Serverless Orientados a Eventos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Henrique Camargo",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-sdk": "^2.658.0",
+    "serverless": "^1.67.3",
+    "serverless-apigw-binary": "^0.4.4",
+    "serverless-offline": "^6.1.4"
+  },
+  "dependencies": {
+    "uuid": "^7.0.3"
+  }
+}
